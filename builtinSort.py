@@ -1,16 +1,9 @@
-import random
-timeToRepeat = 25 # This controls the amount of times to repeat the sorting with random numbers
+# Take user input for the four numbers
+num1 = input()
+num2 = input()
+num3 = input()
+num4 = input()
+numList = [num1,num2,num3,num4]
 
-while timeToRepeat > 0:
-
-    # Generate 4 random numbers to sort.
-    num1 = random.randint(1,100)
-    num2 = random.randint(1,100)
-    num3 = random.randint(1,100)
-    num4 = random.randint(1,100)
-
-    # Print the sorted list of numbers
-    print(sorted([num1,num2,num3,num4]))
-
-    # Count down timeToRepeat
-    timeToRepeat = timeToRepeat - 1
+# Print the sorted list of numbers
+print(sorted(numList))
