@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="becf845a-d350-4663-8cb2-28680cf9d7ac" name="Changes" comment="Added builtinSort.py and flexibleBuiltinSort.py">
-      <change afterPath="$PROJECT_DIR$/customSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/customSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RMalstrom"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RMalstrom&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/RMalstrom/sortingNumbers",
-    "accountId": "41a73eb6-d865-4ac8-a876-4c529785dd04"
+    "url": "https://github.com/RMalstrom/sortingNumbers.git",
+    "accountId": "cd9e7bde-a026-4a2b-b21b-862209838ec1"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2m1Khx9paQUjItKYRkCGhrPTRRA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,12 +46,54 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.NumList.executor": "Run",
     "Python.builtinSort.executor": "Run",
     "Python.flexibleBuiltinSort.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/rdmal/PycharmProjects/sortingNumbers1/customSort.py",
+    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
   }
 }]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="sort4Numbers" sdk-home="$PROJECT_DIR$/../practiceGitProject/.venv/Scripts/python.exe">
+        <option name="sdk">
+          <Sdk />
+        </option>
+        <option name="mySdkHome" value="$PROJECT_DIR$/../practiceGitProject/.venv/Scripts/python.exe" />
+        <option name="mySdk">
+          <Sdk />
+        </option>
+        <option name="myModuleName" value="sort4Numbers" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="NumList" type="PythonConfigurationType" factoryName="Python">
+      <module name="sort4Numbers" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (practiceGitProject)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\rdmal\PycharmProjects\sortingNumbers1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/customSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -1,21 +1,24 @@
-# This program sorts a list of 4 numbers without use of min() max()
-
-# INCOMPLETE NON FUNCTIONAL
+# This program sorts a list of 4 numbers
 
 num1 = input("Please enter your first number: ")
 num2 = input("Please enter your second number: ")
 num3 = input("Please enter your third number: ")
-num4 = input("Please enter your fourth number: ")
+num4 = input("Please enter your fourth number: ")\
 
-numList = [num1,num2,num3,num4]
-sortedList = []
-counter = 0
-while counter < numList.__sizeof__():
-    interval = 0
-    if (numList.pop(interval) < numList.pop(interval + 1)):
-        largestNum = numList.pop(interval + 1)
-        interval = interval + 1
-    else:
-        largestNum = numList.pop(interval)
-        interval = interval + 2
-        #this is a test
+
+# numList = [22,22,22,56] # Placeholder list for testing
+
+numList = [num1, num2, num3, num4] # Create a list from user input
+sortedList = [] # Empty list that will be added onto
+
+while numList: # Iterate through the list of numbers
+    tempVar = numList[0] # Assign tempVar to the first number in the list
+
+    for num in numList: # For all numbers in the list compare them to the tempVar to find the lowest
+        if num < tempVar:
+            tempVar = num
+
+    sortedList.append(tempVar) # Add the lowest number onto the list
+    numList.remove(tempVar) # Remove the lowest number from the numList to prevent repeats
+
+print(sortedList) # Finally print the sorted list
